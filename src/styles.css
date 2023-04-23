@@ -1,0 +1,150 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #012559;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+/*nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+}
+
+nav .navbar {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: #002a4e;
+  color: white;
+}
+
+nav .navbar, .navLogo, .navMemeberButton,
+ul {
+  list-style: none;
+}
+
+nav .navbar, .navLogo, .navMemeberButton,
+ul,
+li {
+  position: relative;
+  float: left;
+}
+
+nav .navbar, .navLogo, .navMemeberButton,
+ul,
+li,
+a {
+  display: block;
+  font-size: 16px;
+  padding: 9px;
+  color: white;
+  text-decoration: none;
+}
+
+nav .navbar:hover, .navLogo:hover, .navMemeberButton:hover,
+ul:hover,
+li:hover,
+a:hover{
+color: yellow;
+}
+
+nav .container{
+position: absolute;
+left: 0;
+width: 200px;
+background-color: #002a4e;
+}
+
+
+.nav-items {
+  display: flex;
+}*/
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4)),
+    url("../images/meghan-holmes-buWcS7G1_28-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  padding: 160px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 1;
+  margin: 30px 0;
+}
+
+header h2 {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  margin: 0;
+}
+
+header h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  color: white;
+  padding: 16px 32px;
+  margin-top: 32px;
+  display: inline-block;
+  letter-spacing: 3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: #012559;
+}
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding-left: 60px 0;
+  }
+
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 12px;
+  }
+}
