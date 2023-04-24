@@ -99,6 +99,7 @@ header h3 {
   font-weight: 900;
   font-size: 24px;
   line-height: 1.5;
+  letter-spacing: 5px;
   margin: 0;
 }
 
@@ -117,21 +118,57 @@ header a {
   background: #012559;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 32px;
+}
+
 footer {
-  text-align: center;
   color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)),
+    url("../images/meghan-holmes-wy_L8W0zcpI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px auto;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-right: 20px;
+  line-height: 24px;
+}
+
+footer ul {
+  padding: 0;
+}
+
+footer li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 footer a {
   color: white;
-  text-decoration: none;
+  opacity: 0.7;
 }
 
-footer a:hover {
-  text-decoration: underline;
-}
-
-@media (max-width: 900px) {
+@media (max-width: 960px) {
   header {
     padding-left: 60px 0;
   }
