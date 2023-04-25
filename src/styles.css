@@ -39,6 +39,11 @@ body {
   aspect-ratio: 1/1;
 }
 
+.video-embeds{
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 .card {
   background: white;
   margin: 30px;
@@ -304,6 +309,10 @@ footer a {
   }
 
   .embed {
+    aspect-ratio: 16 / 9;
+  }
+
+    .video-embeds {
     aspect-ratio: 16 / 9;
   }
 }
